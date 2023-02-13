@@ -1,0 +1,57 @@
+.experience-section {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.experience-header-section h {
+    font-family: Courgette;
+    font-size: 4rem;
+    color: purple;
+    margin-bottom: 1rem;
+
+}
+
+.experience-header-section p {
+    color: rgb(104, 102, 102);
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.card-container {
+    width: auto;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.card-image {
+    width: auto;
+    max-height: 16rem;
+}
+
+.overlay {
+    position: absolute;
+    height: 27%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.158);
+    text-align: center;
+    transition: .2s ease;
+}
+
+.overlay h5 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: verdana;
+}
+
+.card-container:hover .overlay {
+    height: 50%;
+}

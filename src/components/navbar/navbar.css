@@ -1,0 +1,141 @@
+.navbar,
+.nav-logo {
+    padding: 0.6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 5rem;
+}
+
+.nav-logo h2 {
+    font-family: Courgette;
+}
+
+.basic-login-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+}
+
+.sign-in,
+.join-now,
+.reservation,
+.language,
+.currency,
+.q-code {
+    display: block;
+    padding: 0rem 2rem;
+    border-right: 1px solid grey;
+    align-self: center;
+    cursor: pointer;
+}
+
+.q-code {
+    border: none;
+}
+
+
+/* SECOND NAV */
+nav ul {
+    position: relative;
+    z-index: 100;
+}
+
+nav {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.10);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    text-align: left;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav .container a {
+    color: #444;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 1.75em;
+}
+
+nav li:hover {
+    background: #444;
+}
+
+nav li:hover a {
+    color: #fff;
+}
+
+.menu-sub {
+    position: absolute;
+    background: #444;
+    width: 100%;
+    display: none;
+    color: #fff;
+    padding: 2em;
+}
+
+nav li:hover .menu-sub {
+    display: block;
+}
+
+.menu-sub li {
+    display: block;
+}
+
+.menu-sub a {
+    padding: 0;
+    margin-bottom: 0.35em;
+}
+
+.menu-sub a:hover {
+    text-decoration: underline;
+}
+
+.menu-category {
+    margin: 2.5em 0 0.5em;
+}
+
+.menu-category:first-of-type {
+    margin-top: 0;
+}
+
+.menu-col-1 h3 {
+    text-decoration: underline;
+}
+
+.menu-col-1,
+.menu-col-2,
+.menu-col-3,
+.menu-col-4 {
+    float: left;
+}
+
+.menu-col-1 {
+    width: 25%;
+}
+
+.menu-sub h3 {
+    font-size: 1.3rem;
+    font-family: 'Times New Roman';
+}
+
+.search-btn {
+    background: #444;
+    border: 1px solid white;
+    color: white;
+}

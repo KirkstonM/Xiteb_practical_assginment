@@ -1,0 +1,128 @@
+.carousel-slide {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 40%;
+}
+
+.carousel-caption h1 {
+  font-family: Courgette;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.row {
+  padding: 0.8rem;
+  position: relative;
+}
+
+.column {
+  background: white;
+}
+
+/****BOOKING NAV BAR***/
+.booking-section {
+  position: relative;
+  bottom: 5rem;
+  z-index: 99;
+}
+
+.booking-section .containers {
+  background: rgba(0, 0, 0, 0.425);
+}
+
+/******CODE****/
+
+.special-code-modal {
+  padding: 1rem;
+  width: 24rem;
+  position: absolute;
+  right: 20rem;
+  top: 5rem;
+  box-shadow: rgba(7, 7, 7, 0.63) 0px 4px 3px 3px;
+
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  color: red;
+  font-weight: bolder;
+  font-size: large;
+}
+
+
+/*****BOOKING*****/
+
+.guest-modal {
+  padding: 1rem;
+  width: 24rem;
+  box-shadow: rgba(7, 7, 7, 0.63) 0px 4px 3px 3px;
+  position: absolute;
+  left: 28rem;
+  top: 5rem;
+}
+
+
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgba(128, 128, 128, 0.445);
+  margin: 0 -1rem;
+  margin-bottom: 1rem;
+}
+
+.rooms-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counter-1,
+.counter-2 {
+  border: 1px solid black;
+  padding: 0rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addroom-btn {
+  border: 1px solid brown;
+  background: white;
+  color: brown;
+  font-weight: bold;
+}
+
+.dash {
+  width: 100%;
+  height: 0.1rem;
+  background: rgba(128, 128, 128, 0.623);
+  margin: 1rem 0rem;
+
+}
+
+.addroom-btn:hover {
+  border: 2px solid rgb(223, 138, 12);
+  color: rgb(223, 138, 12);
+  background: white;
+}
+
+/*****SEARCH BUTTON****/
+
+.search-btn {
+  padding: 0.8rem 2rem;
+  background: rgb(145, 114, 16);
+  border-radius: 0;
+  border: none;
+}
+
+.search-btn:hover {
+  background: white;
+  border: 2px solid black;
+  color: black;
+}

@@ -1,0 +1,80 @@
+.offers-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.offers-header {
+    text-align: center;
+    font-family: 'Times New Roman';
+    margin-bottom: 2rem;
+    font-size: 15rem;
+}
+
+.offers-header h1 {
+    font-family: Courgette;
+    font-size: 4rem;
+    color: purple;
+    margin-bottom: 4rem;
+}
+
+.offer--cards {
+    box-shadow: goldenrod 0px 2px 2px;
+    border-radius: 0;
+    width: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    max-height: 30rem;
+}
+
+.offer--cards:hover {
+    box-shadow: goldenrod 0px 5px 10px;
+}
+
+.offer-image {
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+}
+
+.offer-details,
+.offer-prices {
+    padding: 0.8rem;
+    color: rgb(14, 89, 201);
+}
+
+.offer-details h6 {
+    font-family: arial;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.offer-details span {
+    color: rgb(102, 101, 101);
+}
+
+.offers-details-btn {
+    background: white;
+    color: rgb(154, 180, 8);
+    border: 2px solid rgb(154, 180, 8);
+    padding: 0.4rem 2rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+}
+
+.offers-details-btn:hover {
+    border: 2px solid rgb(173, 202, 10);
+    color: rgb(173, 202, 10);
+    background: white;
+}
+
+.offer-prices span {
+    font-weight: bolder;
+}
+
+.view-all-btn {
+    text-decoration: underline;
+    background: none;
+    border: none;
+    color: goldenrod;
+}
